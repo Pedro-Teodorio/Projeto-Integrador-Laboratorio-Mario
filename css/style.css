@@ -1,0 +1,18 @@
+#produto{
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.carrousel{
+    border: 1px solid black;
+    width: 50%;
+    height: 400px;
+}
+.title_carrousel h2 {
+    text-align: center;
+}
+    
