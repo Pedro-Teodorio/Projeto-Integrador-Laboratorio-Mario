@@ -1,18 +1,24 @@
-#produto{
-    text-align: center;
-}
-.content{
+#content-produtos{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+}
+#title-carrousel{
+    color: #0E9594;
+}
+#carrousel-content{
+    border: 0.25rem solid #0E9594;
+}
+.btn-circle{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
 
-}
-.carrousel{
-    border: 1px solid black;
-    width: 50%;
-    height: 400px;
-}
-.title_carrousel h2 {
-    text-align: center;
+.w-10{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
 }
     
