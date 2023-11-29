@@ -225,6 +225,11 @@ footer {
   width: 280px;
   height: 100%;
 }
+.footer-wrap a {
+  display: flex;
+  text-decoration: none;
+  color: #FFF;
+}
 
 .footer_text {
   display: flex;
