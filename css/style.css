@@ -61,9 +61,31 @@ main {
   background-size: cover;
 }
 .home-content {
-  /* max-width: 80%; */
-  /* margin: 0 48px; */
   padding: 30px;
+}
+.text-welcome{
+  font-weight: 500 !important;
+  line-height: 1.8;
+}
+.text-welcome-motion{
+    color: #3d9796;
+    font-size: 4rem;
+    width: 60%;
+}
+.text-welcome-motion::after{
+  content: '|';
+  margin-left: 1px;
+  color: #ffffff;
+  opacity: 1;
+  animation: pisca-barra .7s infinite;
+}
+@keyframes pisca-barra{
+  0%,100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
 }
 /*  Fim do Home */
 
@@ -90,7 +112,7 @@ main {
   color: #3d9796 !important;
   font-weight: 700;
   align-self: first baseline;
-  padding-top: 1em;
+  
 }
 .card-text {
   font-weight: 600;

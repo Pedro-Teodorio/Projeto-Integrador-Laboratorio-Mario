@@ -31,4 +31,14 @@ var swiper = new Swiper(".carrousel-content", {
   
     },
   });
+
+  const text = document.querySelector('.text-welcome-motion')
+let typed2 = new Typed(text, {
+  strings: ['', `Eu sou Mário Luiz, protético com mais de 30 anos de experiência no ramo odontológico ^2000`, ],
+  typeSpeed: 100,
+  loop: true,
+  backSpeed: 100,
+  smartBackspace: true,
+  cursorChar: '',
+});
   
