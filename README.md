@@ -6,7 +6,7 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
 ## Stack utilizada
 
-**Front-end:** HTML,CSS,BOOTSTRAP
+**Front-end:** HTML | CSS | BOOTSTRAP | SwiperJs | Typed2 | Jquery
 
 ## Aprendizados
 
